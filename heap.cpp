@@ -137,7 +137,6 @@ void heap::insert(int num)
 		pos = par;
 		par = parent(pos);
 	}
-
 }
 
 int heap::height()
