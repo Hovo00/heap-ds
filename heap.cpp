@@ -167,6 +167,7 @@ bool heap::delete_element(int num)
 		max_heapify(pos);
 	}
 	return true;
+	
 }
 
 int heap::extract_max_element()
